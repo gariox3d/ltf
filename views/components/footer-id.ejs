@@ -1,0 +1,70 @@
+<footer class="page-footer welcome">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Tentang kami</h5>
+          <p class="grey-text text-lighten-4">
+            LTF adalah salah satu alat online Terbaik untuk Download
+            Video Tik Tok tanpa watermark, Anda juga dapat Download musik MP3
+            Tik Tok secara gratis.
+          </p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Tautan langsung</h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="/terms"
+                >Syarat Penggunaan</a
+              >
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="/privacy"
+                >Kebijakan pribadi</a
+              >
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="/contact"
+                >Hubungi Kami</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Lebih Banyak Alat</h5>
+          <ul>
+            <li>
+              <a
+                class="grey-text text-lighten-3"
+                target="_blank"
+                href="https://t.me/YouTubeDownlderBot?start=start"
+                >YouTube Downloader (Telegram Bot)</a
+              >
+            </li>
+          </ul>
+        </div>
+       <div class="col l3 s12">
+          <h5 class="white-text">Informasi</h5>
+          <ul>
+            <li class="grey-text text-lighten-3">
+              IP Kamu: <%= ipAddr %>
+              </li>
+             <li class="grey-text text-lighten-3">
+              Peramban: <%= ua.browser %>
+            </li>
+           <li class="grey-text text-lighten-3">
+              Platform: <%= ua.platform  %>
+            </li>
+         <li class="grey-text text-lighten-3">
+              Waktu Respon: <%= (Date.now() - speeds) / 1000 %> Detik
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <%= new Date().getFullYear() %> © LTF-DESIGN, Dibuat oleh <a class="grey-text text-lighten-3" href="//gariox3d.github.io">Gariox 3D</a>
+      </div>
+    </div>
+  </footer>
